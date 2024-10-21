@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mi Blog</title>
+</head>
+<body>
+    <header>
+        <h1>Planeta-Hombre-Blog de Senceba</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="posts">
+            <article>
+                <h2>Mesopotamia</h2>
+                <p>Este es un resumen o contenido de la publicación 1. Puedes hacer click en el título para leer más.</p>
+                <a href="#">Leer más...</a>
+            </article>
+            <article>
+                <h2>Título de la Publicación 2</h2>
+                <p>Este es un resumen o contenido de la publicación 2. Puedes hacer click en el título para leer más.</p>
+                <a href="#">Leer más...</a>
+            </article>
+            <article>
+                <h2>Título de la Publicación 3</h2>
+                <p>Este es un resumen o contenido de la publicación 3. Puedes hacer click en el título para leer más.</p>
+                <a href="#">Leer más...</a>
+            </article>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de "Leer Más"</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        .contenido {
+            margin-bottom: 20px;
+        }
+        .leer-mas {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenido">
+        <h2>Título del Artículo</h2>
+        <p>
+            Este es un resumen de información sobre un tema interesante. 
+            Aquí hay algunos detalles importantes que vale la pena mencionar. 
+            Sin embargo, este texto no contiene toda la información disponible.
+            <span id="mas" style="display:none;"> 
+               La prehistoria (del latín præ- 'antes de' y de historia 'historia, investigación, noticia'; este último un préstamo del griego ιστορία) es, según la definición tradicional, el período de tiempo transcurrido desde la aparición de los primeros homininos, antecesores del Homo sapiens, hasta que tenemos constancia de la existencia de documentos escritos,1​ algo que ocurrió en primer lugar en el Oriente Próximo hacia el 3300 a. C., y posteriormente en el resto del planeta.2​ No obstante, en su acepción clásica, se vincula con una prehistoria ligada a la historia natural. Según otros autores, la prehistoria terminaría en algunas regiones del mundo antes, con la aparición de las sociedades complejas que dieron lugar a los primeros estados y civilizaciones.
+
+Según las nuevas interpretaciones de la ciencia histórica, la prehistoria es un término carente de significado real en el sentido que fue entendido durante generaciones. Si se considera a la Historia, tomando la definición de Marc Bloch, como el «acontecer humano en el tiempo», todo es Historia existiendo el ser humano, y la prehistoria podría, forzadamente, solo entenderse como el estudio de la vida antes de la aparición del primer homínido en la tierra. Desde el punto de vista cronológico, sus límites están lejos de ser claros, pues ni la llegada del ser humano ni la invención de la escritura tienen lugar al mismo tiempo en todas las zonas del planeta.         </span>
+        </p>
+        <span class="leer-mas" onclick="toggleLeerMas()">Leer más...</span>
+    </div>
+
+    <script>
+        function toggleLeerMas() {
+            var mas = document.getElementById("mas");
+            if (mas.style.display === "none") {
+                mas.style.display = "inline";
+            } else {
+                mas.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+</html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desplegable de Artículo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <script src="script.js"></script>
+</body>
+</html>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Mi Blog. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
